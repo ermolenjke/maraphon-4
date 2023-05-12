@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BB068202A0D02900064C632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB0681F2A0D02900064C632 /* AppDelegate.swift */; };
+		3BB068222A0D02900064C632 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB068212A0D02900064C632 /* SceneDelegate.swift */; };
+		3BB068242A0D02900064C632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB068232A0D02900064C632 /* ViewController.swift */; };
+		3BB068272A0D02900064C632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB068252A0D02900064C632 /* Main.storyboard */; };
+		3BB068292A0D02910064C632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BB068282A0D02910064C632 /* Assets.xcassets */; };
+		3BB0682C2A0D02910064C632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BB0682A2A0D02910064C632 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BB068332A0D02910064C632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB068142A0D02900064C632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BB0681B2A0D02900064C632;
+			remoteInfo = "maraphon#4";
+		};
+		3BB0683D2A0D02910064C632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BB068142A0D02900064C632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BB0681B2A0D02900064C632;
+			remoteInfo = "maraphon#4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BB0681C2A0D02900064C632 /* maraphon#4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "maraphon#4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB0681F2A0D02900064C632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BB068212A0D02900064C632 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3BB068232A0D02900064C632 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BB068262A0D02900064C632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BB068282A0D02910064C632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BB0682B2A0D02910064C632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BB0682D2A0D02910064C632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB068322A0D02910064C632 /* maraphon#4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "maraphon#4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB0683C2A0D02910064C632 /* maraphon#4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "maraphon#4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BB068192A0D02900064C632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB0682F2A0D02910064C632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB068392A0D02910064C632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB068132A0D02900064C632 = {
+			isa = PBXGroup;
+			children = (
+				3BB0681E2A0D02900064C632 /* maraphon#4 */,
+				3BB0681D2A0D02900064C632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BB0681D2A0D02900064C632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BB0681C2A0D02900064C632 /* maraphon#4.app */,
+				3BB068322A0D02910064C632 /* maraphon#4Tests.xctest */,
+				3BB0683C2A0D02910064C632 /* maraphon#4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BB0681E2A0D02900064C632 /* maraphon#4 */ = {
+			isa = PBXGroup;
+			children = (
+				3BB0681F2A0D02900064C632 /* AppDelegate.swift */,
+				3BB068212A0D02900064C632 /* SceneDelegate.swift */,
+				3BB068232A0D02900064C632 /* ViewController.swift */,
+				3BB068252A0D02900064C632 /* Main.storyboard */,
+				3BB068282A0D02910064C632 /* Assets.xcassets */,
+				3BB0682A2A0D02910064C632 /* LaunchScreen.storyboard */,
+				3BB0682D2A0D02910064C632 /* Info.plist */,
+			);
+			path = "maraphon#4";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BB0681B2A0D02900064C632 /* maraphon#4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB068462A0D02910064C632 /* Build configuration list for PBXNativeTarget "maraphon#4" */;
+			buildPhases = (
+				3BB068182A0D02900064C632 /* Sources */,
+				3BB068192A0D02900064C632 /* Frameworks */,
+				3BB0681A2A0D02900064C632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "maraphon#4";
+			productName = "maraphon#4";
+			productReference = 3BB0681C2A0D02900064C632 /* maraphon#4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BB068312A0D02910064C632 /* maraphon#4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB068492A0D02910064C632 /* Build configuration list for PBXNativeTarget "maraphon#4Tests" */;
+			buildPhases = (
+				3BB0682E2A0D02910064C632 /* Sources */,
+				3BB0682F2A0D02910064C632 /* Frameworks */,
+				3BB068302A0D02910064C632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BB068342A0D02910064C632 /* PBXTargetDependency */,
+			);
+			name = "maraphon#4Tests";
+			productName = "maraphon#4Tests";
+			productReference = 3BB068322A0D02910064C632 /* maraphon#4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BB0683B2A0D02910064C632 /* maraphon#4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BB0684C2A0D02910064C632 /* Build configuration list for PBXNativeTarget "maraphon#4UITests" */;
+			buildPhases = (
+				3BB068382A0D02910064C632 /* Sources */,
+				3BB068392A0D02910064C632 /* Frameworks */,
+				3BB0683A2A0D02910064C632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BB0683E2A0D02910064C632 /* PBXTargetDependency */,
+			);
+			name = "maraphon#4UITests";
+			productName = "maraphon#4UITests";
+			productReference = 3BB0683C2A0D02910064C632 /* maraphon#4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BB068142A0D02900064C632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3BB0681B2A0D02900064C632 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					3BB068312A0D02910064C632 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3BB0681B2A0D02900064C632;
+					};
+					3BB0683B2A0D02910064C632 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3BB0681B2A0D02900064C632;
+					};
+				};
+			};
+			buildConfigurationList = 3BB068172A0D02900064C632 /* Build configuration list for PBXProject "maraphon#4" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BB068132A0D02900064C632;
+			productRefGroup = 3BB0681D2A0D02900064C632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BB0681B2A0D02900064C632 /* maraphon#4 */,
+				3BB068312A0D02910064C632 /* maraphon#4Tests */,
+				3BB0683B2A0D02910064C632 /* maraphon#4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BB0681A2A0D02900064C632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB0682C2A0D02910064C632 /* LaunchScreen.storyboard in Resources */,
+				3BB068292A0D02910064C632 /* Assets.xcassets in Resources */,
+				3BB068272A0D02900064C632 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB068302A0D02910064C632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB0683A2A0D02910064C632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BB068182A0D02900064C632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB068242A0D02900064C632 /* ViewController.swift in Sources */,
+				3BB068202A0D02900064C632 /* AppDelegate.swift in Sources */,
+				3BB068222A0D02900064C632 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB0682E2A0D02910064C632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BB068382A0D02910064C632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BB068342A0D02910064C632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BB0681B2A0D02900064C632 /* maraphon#4 */;
+			targetProxy = 3BB068332A0D02910064C632 /* PBXContainerItemProxy */;
+		};
+		3BB0683E2A0D02910064C632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BB0681B2A0D02900064C632 /* maraphon#4 */;
+			targetProxy = 3BB0683D2A0D02910064C632 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BB068252A0D02900064C632 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB068262A0D02900064C632 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BB0682A2A0D02910064C632 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BB0682B2A0D02910064C632 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BB068442A0D02910064C632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BB068452A0D02910064C632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BB068472A0D02910064C632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BHK675K292;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "maraphon#4/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.maraphon-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BB068482A0D02910064C632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BHK675K292;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "maraphon#4/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.maraphon-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BB0684A2A0D02910064C632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BHK675K292;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.maraphon-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maraphon#4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/maraphon#4";
+			};
+			name = Debug;
+		};
+		3BB0684B2A0D02910064C632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BHK675K292;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.maraphon-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maraphon#4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/maraphon#4";
+			};
+			name = Release;
+		};
+		3BB0684D2A0D02910064C632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BHK675K292;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.maraphon-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "maraphon#4";
+			};
+			name = Debug;
+		};
+		3BB0684E2A0D02910064C632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BHK675K292;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.maraphon-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "maraphon#4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BB068172A0D02900064C632 /* Build configuration list for PBXProject "maraphon#4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB068442A0D02910064C632 /* Debug */,
+				3BB068452A0D02910064C632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB068462A0D02910064C632 /* Build configuration list for PBXNativeTarget "maraphon#4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB068472A0D02910064C632 /* Debug */,
+				3BB068482A0D02910064C632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB068492A0D02910064C632 /* Build configuration list for PBXNativeTarget "maraphon#4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB0684A2A0D02910064C632 /* Debug */,
+				3BB0684B2A0D02910064C632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BB0684C2A0D02910064C632 /* Build configuration list for PBXNativeTarget "maraphon#4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BB0684D2A0D02910064C632 /* Debug */,
+				3BB0684E2A0D02910064C632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BB068142A0D02900064C632 /* Project object */;
+}
